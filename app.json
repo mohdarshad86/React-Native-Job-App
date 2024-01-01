@@ -7,7 +7,25 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "my-app",
-    "slug": "my-app"
+    "name": "linkedin Jobs",
+    "slug": "linkedin-jobs",
+    "icon": "./assets/linjobs.png",
+    "splash": {
+      "image": "./assets/linjobs.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "55bb9e23-45bf-46d1-a64d-e68b524c59c6"
+      }
+    },
+    "owner": "arshad86",
+    "android": {
+      "package": "com.arshad86.linkedinjobs"
+    }
   }
 }
